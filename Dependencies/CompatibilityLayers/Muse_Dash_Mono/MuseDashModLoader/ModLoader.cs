@@ -20,7 +20,7 @@ namespace ModLoader
                     string dependName = dependStr.Remove(dependStr.LastIndexOf(".dll")).Remove(0, filter.Length);
                     if (depends.ContainsKey(dependName))
                     {
-                        MonkiiLogger.Error($"Dependency conflict: {dependName} First at: {depends[dependName].GetName().Name}");
+                        //MonkiiLogger.Error($"Dependency conflict: {dependName} First at: {depends[dependName].GetName().Name}");
                         continue;
                     }
 

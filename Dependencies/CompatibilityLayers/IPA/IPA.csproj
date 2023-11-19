@@ -17,7 +17,7 @@
 		<DefineConstants />
 	</PropertyGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\..\..\MonkiiLoader\MonkiiLoader.csproj">
+	  <ProjectReference Include="..\..\..\MonkiiLoader\MonkiiModLoader.csproj">
 	    <Private>false</Private>
 	    <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
 	  </ProjectReference>
